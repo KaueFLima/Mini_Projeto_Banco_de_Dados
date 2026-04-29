@@ -4,8 +4,7 @@ Projeto com intuito de anonimizar informações de um banco de dados ficticio pa
 
 
 Instalação:
-Clone ou baixe o projeto
-Instale os requirements
+Clone ou baixe o projeto e instale os requirements
 pip install -r requirements.txt
 
 
