@@ -4,7 +4,7 @@ from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment
 
 from decorator_tempo import medir_tempo
-from db import engine
+from LGPD import engine
 from atividade1 import anonimizar_nome, anonimizar_cpf, anonimizar_email, anonimizar_telefone
 
 HEADER_FILL = PatternFill('solid', start_color='4472C4')

@@ -3,7 +3,7 @@ from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment
 
 from decorator_tempo import medir_tempo
-from db import engine
+from LGPD import engine
 
 HEADER_FILL = PatternFill('solid', start_color='4472C4')
 HEADER_FONT = Font(bold=True, color='FFFFFF', name='Arial')

@@ -1,6 +1,6 @@
 from sqlalchemy import text
 from decorator_tempo import medir_tempo
-from db import engine
+from LGPD import engine
 
 def anonimizar_nome(nome: str) -> str:
     partes = nome.split()
