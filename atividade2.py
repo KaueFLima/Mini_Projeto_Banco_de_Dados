@@ -53,7 +53,7 @@ def atividade2():
                 cell.font = CELL_FONT
         _ajustar_colunas(ws)
         wb.save(f"{ano}.xlsx")
-        print(f"  ✔ {ano}.xlsx — {len(registros)} registro(s)")
+        print(f"{ano}.xlsx — {len(registros)} registro(s)")
 
 if __name__ == '__main__':
     print("Atividade 2 — Arquivos por ano de nascimento:\n")
