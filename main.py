@@ -1,5 +1,5 @@
 from sqlalchemy import text
-from db import engine
+from LGPD import engine
 from atividade1 import LGPD
 from atividade2 import atividade2
 from atividade3 import atividade3
